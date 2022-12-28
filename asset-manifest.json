@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/postman-skills/static/css/main.1047c661.css",
+    "main.js": "/postman-skills/static/js/main.e6616a80.js",
+    "static/js/787.087ec6a6.chunk.js": "/postman-skills/static/js/787.087ec6a6.chunk.js",
+    "index.html": "/postman-skills/index.html",
+    "main.1047c661.css.map": "/postman-skills/static/css/main.1047c661.css.map",
+    "main.e6616a80.js.map": "/postman-skills/static/js/main.e6616a80.js.map",
+    "787.087ec6a6.chunk.js.map": "/postman-skills/static/js/787.087ec6a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1047c661.css",
+    "static/js/main.e6616a80.js"
+  ]
+}
