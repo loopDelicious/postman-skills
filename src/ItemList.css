@@ -6,6 +6,15 @@
     padding: 4px;
 }
 
-.item-counter {
+.item-summary {
     padding: 0 5px;
+}
+
+.item-counter {
+    font-weight: bold;
+    color: #63666A;
+}
+
+.item-message {
+    color: #63666A;
 }

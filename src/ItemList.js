@@ -73,23 +73,30 @@ class ItemList extends Component {
     );
     let itemMessage;
     if (this.state.checkboxCount == 0) {
-      itemMessage = "You're just getting started";
+      itemMessage = "📚 Just getting started";
     }
     if (completionPercentage > 0 && completionPercentage < 25) {
-      itemMessage = "Needs improvement";
+      itemMessage = "🤓 Needs improvement";
     }
     if (completionPercentage >= 25 && completionPercentage < 50) {
-      itemMessage = "You're on your way";
+      itemMessage = "🏅 You're on your way";
     }
     if (completionPercentage >= 50 && completionPercentage < 100) {
-      itemMessage = "Approaching expert status";
+      itemMessage = "🏆 Approaching expert status";
     }
     if (completionPercentage == 100) {
-      itemMessage = "You did it!";
+      itemMessage = "🚀 You did it!";
     }
 
     return (
       <div className="container item-list">
+        <div className="item-summary">
+          <h3 className="item-counter">
+            {this.state.checkboxCount} / {this.createCheckboxes().length}&nbsp;
+            ({completionPercentage}%) &nbsp; &nbsp; {itemMessage}
+          </h3>
+          <p>Check the Postman skills you have experience with.</p>
+        </div>
         <div className="row">
           <div className="col-sm-12">
             <form onSubmit={this.handleFormSubmit}>
@@ -100,11 +107,6 @@ class ItemList extends Component {
             </form>
           </div>
         </div>
-        <p className="item-counter">
-          {this.state.checkboxCount} / {this.createCheckboxes().length}
-        </p>
-        <p className="item-counter">({completionPercentage}% completed)</p>
-        <p className="item-counter">{itemMessage}</p>
       </div>
     );
   }
