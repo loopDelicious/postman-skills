@@ -13,6 +13,10 @@ root.render(
       <Jumbo />
       <ItemList />
       <Resources />
+      <p className="attribution">
+        The idea of this skills list is borrowed with love from{" "}
+        <a href="https://cypress.tips/skills">Cypress skills</a>.
+      </p>
     </div>
   </React.StrictMode>
 );

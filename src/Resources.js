@@ -30,14 +30,14 @@ class Resources extends Component {
   render() {
     return (
       <div className="resources">
+        <div className="cta-lower">
+          <a href="https://www.postman.com/postman/workspace/15-days-of-postman-for-testers">
+            <Button variant="primary" className="btn-primary cta">
+              Take the 15-day challenge
+            </Button>
+          </a>
+        </div>
         <div className="resources-contents">
-          <div className="cta-lower">
-            <a href="https://www.postman.com/postman/workspace/15-days-of-postman-for-testers">
-              <Button variant="primary" className="btn-primary cta">
-                Take the 15-day challenge
-              </Button>
-            </a>
-          </div>
           <h3>Additional Resources</h3>
           <ul className="list-group">
             {this.state.resources.map((resource, i) => (

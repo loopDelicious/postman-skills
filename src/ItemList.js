@@ -91,7 +91,7 @@ class ItemList extends Component {
     return (
       <div className="container item-list">
         <div className="item-summary">
-          <h4>✅ Check the Postman skills you have experience with.</h4>
+          <h4>✅ &nbsp; Which Postman skills do you have experience with?</h4>
         </div>
         <div className="row">
           <div className="col-sm-12">

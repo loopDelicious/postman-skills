@@ -8,8 +8,8 @@ function Jumbo() {
       <div className="jumbotron-contents">
         <h1>Level up your Postman skills</h1>
         <p>
-          For API testing professionals: assess your Postman experience in the
-          quiz below, or skip ahead to the intermediate test challenge
+          <b>For API testing professionals:</b> Assess your Postman experience
+          in the quiz below, or skip ahead to the intermediate test challenge
         </p>
         <p>
           <a href="https://www.postman.com/postman/workspace/15-days-of-postman-for-testers">

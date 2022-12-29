@@ -17,8 +17,9 @@ code {
     monospace;
 }
 
-.app {
-
+.attribution {
+  font-style: italic;
+  padding: 10px 0 10px 80px;
 }
 
 /* Jumbotron */
@@ -63,3 +64,4 @@ a:hover {
 .resources-contents {
   padding: 0 20px 60px 80px;
 }
+
