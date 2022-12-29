@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import ItemList from "./ItemList";
 import Jumbo from "./Jumbo";
+import Resources from "./Resources";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -11,6 +12,7 @@ root.render(
     <div className="app">
       <Jumbo />
       <ItemList />
+      <Resources />
     </div>
   </React.StrictMode>
 );

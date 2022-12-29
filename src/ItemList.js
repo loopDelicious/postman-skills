@@ -31,7 +31,7 @@ class ItemList extends Component {
     checkboxCount: 0,
   };
 
-  componentWillMount = () => {
+  componentDidMount = () => {
     this.selectedCheckboxes = new Set();
   };
 
@@ -72,7 +72,7 @@ class ItemList extends Component {
       (this.state.checkboxCount / this.createCheckboxes().length) * 100
     );
     let itemMessage;
-    if (this.state.checkboxCount == 0) {
+    if (this.state.checkboxCount === 0) {
       itemMessage = "📚 Just getting started";
     }
     if (completionPercentage > 0 && completionPercentage < 25) {
@@ -84,18 +84,14 @@ class ItemList extends Component {
     if (completionPercentage >= 50 && completionPercentage < 100) {
       itemMessage = "🏆 Approaching expert status";
     }
-    if (completionPercentage == 100) {
+    if (completionPercentage === 100) {
       itemMessage = "🚀 You did it!";
     }
 
     return (
       <div className="container item-list">
         <div className="item-summary">
-          <h3 className="item-counter">
-            {this.state.checkboxCount} / {this.createCheckboxes().length}&nbsp;
-            ({completionPercentage}%) &nbsp; &nbsp; {itemMessage}
-          </h3>
-          <p>Check the Postman skills you have experience with.</p>
+          <h4>✅ Check the Postman skills you have experience with.</h4>
         </div>
         <div className="row">
           <div className="col-sm-12">
@@ -107,6 +103,10 @@ class ItemList extends Component {
             </form>
           </div>
         </div>
+        <h6 className="item-counter">
+          {this.state.checkboxCount} / {this.createCheckboxes().length}&nbsp; (
+          {completionPercentage}%) &nbsp; &nbsp; {itemMessage}
+        </h6>
       </div>
     );
   }

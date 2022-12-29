@@ -1,3 +1,8 @@
+:root {
+  --main-bg-color: #EF5B25;
+  --second-bg-color: #565656;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -16,6 +21,8 @@ code {
 
 }
 
+/* Jumbotron */
+
 .jumbotron {
   padding: 2rem 1rem;
   /* margin-bottom: 2rem; */
@@ -24,6 +31,35 @@ code {
 }
 
 .jumbotron-contents {
-  padding: 20px;
+  padding: 20px 0 0 65px;
 }
 
+.cta {
+  background-color: var(--main-bg-color) !important;
+  border-color: var(--main-bg-color) !important;
+}
+
+/* Resources */
+
+.cta-lower {
+  text-align: center;
+  padding: 20px 0 60px 0;
+}
+
+a {
+  color: var(--main-bg-color) !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: var(--second-bg-color) !important
+}
+
+.resources {
+  background-color: #e9ecef;
+  padding: 2rem 1rem;
+}
+
+.resources-contents {
+  padding: 0 20px 60px 80px;
+}

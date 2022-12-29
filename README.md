@@ -3,6 +3,10 @@ Install dependencies and run the app in the development mode.
     $ npm install
     $ npm start
 
+Publish to production at `https://loopdelicious.github.io/postman-skills/` (from `gh-pages` branch).
+
+    $ npm run deploy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
