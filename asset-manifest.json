@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/postman-skills/static/css/main.ee82621b.css",
-    "main.js": "/postman-skills/static/js/main.cacd799a.js",
+    "main.css": "/postman-skills/static/css/main.58ce9a11.css",
+    "main.js": "/postman-skills/static/js/main.40e91cea.js",
     "static/js/787.087ec6a6.chunk.js": "/postman-skills/static/js/787.087ec6a6.chunk.js",
     "index.html": "/postman-skills/index.html",
-    "main.ee82621b.css.map": "/postman-skills/static/css/main.ee82621b.css.map",
-    "main.cacd799a.js.map": "/postman-skills/static/js/main.cacd799a.js.map",
+    "main.58ce9a11.css.map": "/postman-skills/static/css/main.58ce9a11.css.map",
+    "main.40e91cea.js.map": "/postman-skills/static/js/main.40e91cea.js.map",
     "787.087ec6a6.chunk.js.map": "/postman-skills/static/js/787.087ec6a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee82621b.css",
-    "static/js/main.cacd799a.js"
+    "static/css/main.58ce9a11.css",
+    "static/js/main.40e91cea.js"
   ]
 }
