@@ -19,3 +19,7 @@
 .item-message {
     color: var(--second-bg-color);
 }
+
+.labelWithResources {
+    float: right;
+}
