@@ -14,8 +14,8 @@ class Resources extends Component {
         link: "https://www.youtube.com/playlist?list=PLM-7VG-sgbtAgGq_pef5y_ruIUBPpUgNJ",
       },
       {
-        title: "15 Days of Postman: intermediate test challenge workspace",
-        link: "https://www.postman.com/postman/workspace/15-days-of-postman-for-testers",
+        title: "Postman API Test Automation for Beginners",
+        link: "https://www.youtube.com/watch?v=zp5Jh2FIpF0",
       },
       {
         title: "Test examples in Postman: public workspace",
